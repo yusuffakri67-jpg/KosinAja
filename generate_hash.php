@@ -1,5 +1,5 @@
 <?php
-$password = 'Admin@KosinAja2024';
+$password = 'Admin@KosinAja2026';
 $hash = password_hash($password, PASSWORD_DEFAULT);
 ?>
 <!DOCTYPE html>
