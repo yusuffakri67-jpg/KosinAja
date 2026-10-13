@@ -1,7 +1,3 @@
-# KOSINAJA - Environment Template
-# Copy file ini jadi .env lalu isi nilainya
-# Command: cp .env.example .env
-
 APP_NAME=KosinAja
 APP_URL=http://localhost/KosinAja
 APP_ENV=development
