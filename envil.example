@@ -1,0 +1,41 @@
+# KOSINAJA - Environment Template
+# Copy file ini jadi .env lalu isi nilainya
+# Command: cp .env.example .env
+
+APP_NAME=KosinAja
+APP_URL=http://localhost/KosinAja
+APP_ENV=development
+APP_TIMEZONE=Asia/Jakarta
+
+# DATABASE (PostgreSQL)
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=db_kosinaja
+DB_USER=postgres
+DB_PASS=
+DB_CHARSET=utf8
+
+# MAIL (isi saat Sprint Email)
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USER=
+MAIL_PASS=
+MAIL_FROM=noreply@kosinaja.id
+MAIL_NAME=KosinAja
+
+# OAUTH (isi saat Sprint OAuth)
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_REDIRECT_URI=http://localhost/KosinAja/auth/oauth_google_callback.php
+
+FB_APP_ID=
+FB_APP_SECRET=
+FB_REDIRECT_URI=http://localhost/KosinAja/auth/oauth_facebook_callback.php
+
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GITHUB_REDIRECT_URI=http://localhost/KosinAja/auth/oauth_github_callback.php
+
+# RECAPTCHA
+RECAPTCHA_SITE_KEY=
+RECAPTCHA_SECRET_KEY=

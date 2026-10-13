@@ -1,0 +1,7 @@
+# DATABASE (PostgreSQL)
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=db_kosinaja
+DB_USER=postgres
+DB_PASS=postgres
+DB_CHARSET=utf8
